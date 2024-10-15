@@ -51,26 +51,37 @@ In the chat() function, user inputs are processed similarly to the training data
 Based on the predicted intent, the bot selects and outputs a random response from the intents.json file.
 
 Example Conversation Flow:
+
 User: "Hi"
 
 Bot: "Hello, thanks for visiting."
+
 User: "When are you open?"
 
 Bot: "We're open every day from 9am-9pm."
+
 User: "Do you accept Mastercard?"
 
 Bot: "We accept VISA, Mastercard, and AMEX."
+
+
+
 Key Components:
+
 NLTK (Natural Language Toolkit):
 
 Tokenizes and stems the input sentences to simplify the data before processing.
+
 TFLearn:
 
 A high-level deep learning library built on top of TensorFlow used to construct and train the neural network.
+
 TensorFlow:
 
 A machine learning framework used to perform computations for training the model.
+
 How to Run the Project:
+
 Install Dependencies: Make sure you have installed the following packages:
 
 
